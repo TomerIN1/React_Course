@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+/*
+Here the "<App />" component is randered by the ReactDom at the root position.
+All of the app component is randered to the browser. 
+*/ 
 ReactDOM.render(
   <React.StrictMode>
     <App />

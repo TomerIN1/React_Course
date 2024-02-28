@@ -1,0 +1,14 @@
+React Components. link to video Course (by Net Ninja): https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3 
+
+Components are the building blocks and the beating heart of any react application. 
+A page is constructed out of multiple components:
+    1. a nav bar is a component. 
+    2. an article is a component. 
+    3. a sidebar is a component. 
+
+As a react developer, your job is to create these components which are then randered to the dom and shown in the web page by react. 
+each of these components will contain all of their own templates and logic for that piece of content (see pic 1) 
+for example, a navbar component will will contain a template which makes up the html for this bit of content but also any javascript logic, like a function which runs when maybe a logout button is clicked. 
+
+who does it works? 
+when you'll go to the index.js file (src folder) you'll see the "<App />" component that is rendering it to the dom at the root position. 
