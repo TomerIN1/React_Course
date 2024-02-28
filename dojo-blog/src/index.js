@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; //here we import the App component in order to use it in the ReactDOM. 
 
 /*
 Here the "<App />" component is randered by the ReactDom at the root position.
