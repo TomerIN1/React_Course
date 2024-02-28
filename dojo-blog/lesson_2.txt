@@ -1,0 +1,19 @@
+How to create a new react project?
+    1. open your terminal. 
+    2. first you need to have node installed in your machine. check it with the following command: "node -v". if not, go to node and download it then install it. 
+    3. go to the directory you want to build your react app. 
+    4. type the following command: "npx create-react-app project_name". this command will generate all the folder and files you need in order to start using react. 
+    5. open the project in your IDE. 
+
+What do you have in your new project? 
+    1. node modules - all the node dependencies. 
+    2. public folder - all the public files to the public. 
+    3. src (source) folder - this is the hart of your app. 
+        a. the App.js file is the root component that run in the index.js file. 
+        b. we have css file. 
+        c. index.js file - this is the file that kinde of kikstarts our application. it responsible for taking all of our react components and mounting them to the dom. you can see it's taking the "<APP />" component (which is in the App.js file) and it's rendering it to the dom, and it does that in that root div (which is in the public folder under the index.html file). the "<React.StrictMode>" means that react does additional checkes during development and it gives us warnings down in the console if there are any warnings to report. 
+        d. reportWebVitales.js - a performance file which we don't really need either - so we can delete it after the react project is finished. Important note: you need to delete from the index.js file the import of this file + the call function to this file. 
+        e. setUpTest.js - it's not in the scope of this course. we delete it. 
+ 
+how to run your app? 
+type: "npm run start" then you can go to your localhost:port n and see your app. 
