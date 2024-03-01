@@ -25,7 +25,8 @@ How to Utilize the `useState` Hook in React:
   6. **Rendering State in the Template**: Now, you can use `{name}` in your JSX template. Whenever `name` is updated, the component re-renders, reflecting the new value in the UI.
 
 Note: the value can be any data type value (boolean, object, array, numbers, strings etc..)
-
+Note2: in this file, below the code, you'll have different types of events name like click, mosehover and so on. 
+Note3: In this course video number 9 shows info about react dev tools that you can download as chrom extention. there is not lesson-9 branch. move to lesson-10. 
 
  */
 
