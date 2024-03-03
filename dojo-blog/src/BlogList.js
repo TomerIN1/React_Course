@@ -1,3 +1,4 @@
+// the "{ blogs, title}" is destructure the props object directly inside the parentheses. 
 const BlogList = ({ blogs, title}) => {
   // const blogs = props.blogs;
   // const title = props.title;
