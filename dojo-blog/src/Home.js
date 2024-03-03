@@ -8,7 +8,9 @@ now, can change a bit the line of code in order to show just 'mario' blogs.
   1. use use the filter method which fires a callback func for each item in the array.
      if return true, it keeps it in the array and if false it filters it out of the array.
      finally, it returns a new array with only the items we don't filter out. 
-  2. 
+  2. we filter just mario blogs and get it in the browser. 
+
+so you see how this blogList component can be resued, but we can use it with different data and that makes it really useful for doing things like a seach page whereby the title matches the seach term for example. 
 
  */
 
