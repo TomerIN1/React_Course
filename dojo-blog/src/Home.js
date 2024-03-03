@@ -1,3 +1,17 @@
+/**
+lesson-12: Reusing Components. 
+Video link: https://www.youtube.com/watch?v=-YpnB-zlkPU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=12
+
+We saw in the last lesson how we use Props to pass data from one component to another component. 
+if we duplicate the row: "<BlogList blogs={blogs} title="All Blogs" />" we can reuse it over and over. 
+now, can change a bit the line of code in order to show just 'mario' blogs.
+  1. use use the filter method which fires a callback func for each item in the array.
+     if return true, it keeps it in the array and if false it filters it out of the array.
+     finally, it returns a new array with only the items we don't filter out. 
+  2. 
+
+ */
+
 import { useState } from "react";
 import BlogList from "./BlogList";
 
